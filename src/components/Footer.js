@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa"
 import { Link } from 'react-router-dom'
+import { FaPerson } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -52,6 +53,10 @@ const Footer = () => {
             <div className="flex items-center gap-3 sm:gap-4">
               <FaMapMarkerAlt className="text-yellow-500 text-base sm:text-xl" />
               <p className="text-gray-300 text-sm sm:text-md">Rajkot, Gujarat, India</p>
+            </div>
+            <div className="flex items-center gap-3 mt-4 sm:gap-4">
+              <FaPerson  className="text-yellow-500 text-base sm:text-xl" />
+              <p className="text-gray-300 text-sm sm:text-md">Chirag Parmar</p>
             </div>
           </div>
         </div>
