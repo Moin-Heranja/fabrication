@@ -37,7 +37,7 @@ const Home = () => {
 
       {/* WhatsApp Floating Icon */}
       <a
-        href="https://wa.me/919876543210" // Replace with your WhatsApp number in international format
+        href="https://wa.me/918780225023" // Replace with your WhatsApp number in international format
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 bg-green-600 hover:bg-green-500 text-white p-4 rounded-full shadow-lg shadow-green-500 transition duration-300 flex items-center justify-center"
