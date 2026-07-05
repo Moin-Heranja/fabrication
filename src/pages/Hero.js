@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '../asset/logo.png'
 import Header from '../components/Header'
-import videoBg from '../asset/effect.mp4' 
+import back from '../asset/back3.png'
 import { Link } from 'react-router-dom'
 
 const Hero = () => {
@@ -10,13 +10,10 @@ const Hero = () => {
       <Header />
 
       {/* Background video */}
-      <video
+      <img
         className="absolute inset-0 w-full h-full object-cover -z-10"
-        src={videoBg}
-        autoPlay
-        loop
-        muted
-        playsInline
+        src={back}
+        alt="banner"
       />
 
       {/* Content */}
